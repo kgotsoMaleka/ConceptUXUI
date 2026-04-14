@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concept Plug - Premium Clothing & Branding</title>
+    <meta name="description" content="Discover the best concept clothing, custom printing, and branding services at Concept Plug.">
+
+    <!-- Style Css Link -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Font Awesome Cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header Start -->
+    <header class="header">
+        <nav>
+            <input type="checkbox" id="show-search" aria-label="Toggle search">
+            <input type="checkbox" id="show-menu" aria-label="Toggle menu">
+            <label for="show-menu" class="menu-icon" aria-label="Menu"><i class="fas fa-bars"></i></label>
+            <div class="content">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="./images/logo.png" alt="Concept Plug Logo">
+                    </a>
+                </div>
+
+                <ul class="links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#product">Products</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#review">Reviews</a></li>
+                </ul>
+            </div>
+            <label for="show-search" class="search-icon" aria-label="Search"><i class="fas fa-search"></i></label>
+            <form action="#" class="search-box" role="search">
+                <input type="text" placeholder="Search products..." aria-label="Search query" required>
+                <button type="submit" class="go-icon" aria-label="Submit search"><i class="fas fa-long-arrow-alt-right"></i></button>
+            </form>
+        </nav>
+    </header>
+    <!-- Header End -->
+
+    <!-- Home Section Start -->
+    <section class="home" id="home">
+        <div class="main-text">
+            <h1>Discover The Best <br>Concept Clothing For You</h1>
+            <p>Premium quality custom clothing, branding services, and unique designs tailored to your style.</p>
+            <p>From T-shirt printing to business branding - we bring your vision to life.</p>
+            <button id="btn" type="button">Shop Now</button>
+        </div>
+    </section>
+    <!-- Home Section End -->
+
+    <!-- Top Section Card Start -->
+    <section class="offers" aria-label="Services and offers">
+        <div class="offer-content">
+            <div class="row">
+                <i class="fa-solid fa-truck-fast" aria-hidden="true"></i>
+                <h3>Free Delivery</h3>
+                <p>On orders over ZAR 500</p>
+            </div>
+            <div class="row">
+                <i class="fa-solid fa-headset" aria-hidden="true"></i>
+                <h3>Support 24/7</h3>
+                <p>Customer service always ready</p>
+            </div>
+            <div class="row">
+                <i class="fa-solid fa-rotate-left" aria-hidden="true"></i>
+                <h3>30 Day Return</h3>
+                <p>Hassle-free returns</p>
+            </div>
+            <div class="row">
+                <i class="fa-solid fa-cart-shopping" aria-hidden="true"></i>
+                <h3>Secure Shopping</h3>
+                <p>100% secure checkout</p>
+            </div>
+        </div>
+    </section>
+    <!-- Top Section Card End -->
+
+    <!-- About Section Start -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./images/about-img.jpg" alt="Concept Plug branding and printing services showcase">
+        </div>
+        <div class="about-text">
+            <h3>About Us</h3>
+            <p><strong>Brand, Print, Design</strong> - T-shirt Printing, Embroidery, Car Branding, Stickers, Welcome Boards, Logo Design, Posters, Flyers, Business Cards, Pop Up Banners. <strong>We brand it your way!</strong></p>
+            <button id="about-btn" type="button">Read More</button>
+        </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Product Section Start -->
+    <section class="product" id="product">
+        <div class="main-txt">
+            <h3>Our Products</h3>
+        </div>
+        <div class="card-content">
+            <div class="row">
+                <img src="./images/p1.JPG" alt="ConceptPlug Brain Freeze Shirt and Shorts Combo">
+                <div class="card-body">
+                    <h3>Shirt + Trouser Combo</h3>
+                    <p>ConceptPlug Brain Freeze Shirt and Shorts Combo</p>
+                    <h5>Price ZAR 999</h5>
+                    <button type="button" class="order-btn" data-product="Shirt + Trouser Combo" data-price="999">Order Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./images/p2.png" alt="ConceptPlug Brain Freeze Long Trousers">
+                <div class="card-body">
+                    <h3>Long Trouser</h3>
+                    <p>The ConceptPlug Brain Freeze Long Trousers with different color co-ordinations</p>
+                    <h5>Price ZAR 499</h5>
+                    <button type="button" class="order-btn" data-product="Long Trouser" data-price="499">Order Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./images/p3.JPG" alt="ConceptPlug white shirt with Gandhi Collage design">
+                <div class="card-body">
+                    <h3>Short Sleeve Shirt</h3>
+                    <p>ConceptPlug white with Gandhi Collage on the back</p>
+                    <h5>Price ZAR 349</h5>
+                    <button type="button" class="order-btn" data-product="Short Sleeve Shirt" data-price="349">Order Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./images/p4.JPG" alt="ConceptPlug BrainFreeze Trousers customizable">
+                <div class="card-body">
+                    <h3>BrainFreeze Trousers</h3>
+                    <p>What you see you can customize to fit your desire</p>
+                    <h5>Price ZAR 499</h5>
+                    <button type="button" class="order-btn" data-product="BrainFreeze Trousers" data-price="499">Order Now</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-content">
+            <div class="row">
+                <img src="./images/p5.png" alt="ConceptPlug short sleeve shirt with alteration options">
+                <div class="card-body">
+                    <h3>Short Sleeve Shirt</h3>
+                    <p>ConceptPlug short sleeve Shirts with alteration request</p>
+                    <h5>Price ZAR 349</h5>
+                    <button type="button" class="order-btn" data-product="Short Sleeve Shirt" data-price="349">Order Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./images/p6.JPG" alt="ConceptPlug branded shirt and trouser combo">
+                <div class="card-body">
+                    <h3>Shirt + Trouser Combo</h3>
+                    <p>ConceptBranding your desires can be manifested into reality</p>
+                    <h5>Price ZAR 999</h5>
+                    <button type="button" class="order-btn" data-product="Shirt + Trouser Combo" data-price="999">Order Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./images/p7.JPG" alt="ConceptPlug branded outfit">
+                <div class="card-body">
+                    <h3>Shirt + Trouser Combo</h3>
+                    <p>ConceptBranding your desires can be manifested into reality</p>
+                    <h5>Price ZAR 999</h5>
+                    <button type="button" class="order-btn" data-product="Shirt + Trouser Combo" data-price="999">Order Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./images/p8.JPG" alt="ConceptPlug branded clothing set">
+                <div class="card-body">
+                    <h3>Shirt + Trouser Combo</h3>
+                    <p>ConceptBranding your desires can be manifested into reality</p>
+                    <h5>Price ZAR 999</h5>
+                    <button type="button" class="order-btn" data-product="Shirt + Trouser Combo" data-price="999">Order Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Product Section End -->
+
+    <!-- Banner Start -->
+    <section class="banner">
+        <div class="banner-content">
+            <h5>Get Discount Up To 50%</h5>
+            <h3>Best Deal Of The Week</h3>
+            <p>Get up to 50% off this week and get exclusive offers<br>Don't miss out!</p>
+            <button type="button"><a href="#products">Shop Now</a></button>
+        </div>
+    </section>
+    <!-- Banner End -->
+
+    <!-- Sale Products Start -->
+    <section class="product" id="products">
+        <div class="main-txt">
+            <h3>50% Off Products</h3>
+        </div>
+        <div class="card-content">
+            <div class="row">
+                <img src="./images/p9.JPG" alt="ConceptPlug combo product on sale">
+                <div class="card-body">
+                    <h3>Combo Deal</h3>
+                    <p>ConceptBranding your desires can be manifested into reality</p>
+                    <h5>Was ZAR 1998 <span class="sale-price">Now ZAR 999</span></h5>
+                    <button type="button" class="order-btn" data-product="Combo Deal" data-price="999">Order Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./images/p10.JPG" alt="ConceptPlug combo product on sale">
+                <div class="card-body">
+                    <h3>Combo Deal</h3>
+                    <p>ConceptBranding your desires can be manifested into reality</p>
+                    <h5>Was ZAR 1998 <span class="sale-price">Now ZAR 999</span></h5>
+                    <button type="button" class="order-btn" data-product="Combo Deal" data-price="999">Order Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./images/p11.JPG" alt="ConceptPlug combo product on sale">
+                <div class="card-body">
+                    <h3>Combo Deal</h3>
+                    <p>ConceptBranding your desires can be manifested into reality</p>
+                    <h5>Was ZAR 1998 <span class="sale-price">Now ZAR 999</span></h5>
+                    <button type="button" class="order-btn" data-product="Combo Deal" data-price="999">Order Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./images/p12.JPG" alt="ConceptPlug combo product on sale">
+                <div class="card-body">
+                    <h3>Combo Deal</h3>
+                    <p>ConceptBranding your desires can be manifested into reality</p>
+                    <h5>Was ZAR 1998 <span class="sale-price">Now ZAR 999</span></h5>
+                    <button type="button" class="order-btn" data-product="Combo Deal" data-price="999">Order Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Sale Products End -->
+
+   <!-- Our Gallery Start -->
+<section class="gallary" id="gallery">
+    <h3>Our Gallery</h3>
+    <div class="gallary-img">
+        <div class="img1">
+            <img src="./images/g1.png" alt="Concept Plug clothing gallery image 1">
+        </div>
+        <div class="img1">
+            <img src="./images/g2.JPG" alt="Concept Plug clothing gallery image 2">
+            <img src="./images/g3.JPG" alt="Concept Plug clothing gallery image 3">
+        </div>
+    </div>
+</section>
+<!-- Our Gallery End -->
+
+    <!-- Contact Section Start -->
+    <section class="contact" id="contact">
+        <div class="content-text">
+            <h2>Get In <span>Touch</span></h2>
+            <p>Have questions or want to place a custom order? Reach out to us!</p>
+            <p>We're here to help with all your branding and clothing needs.</p>
+            <div class="list">
+                <li><a href="tel:+27746133749">📞 074 6133 749</a></li>
+                <li><a href="https://instagram.com/conceptplug" target="_blank" rel="noopener noreferrer">📷 @conceptPlug</a></li>
+                <li><a href="https://maps.google.com/?q=305+President+House" target="_blank" rel="noopener noreferrer">📍 305 President House</a></li>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <form action="#" method="POST">
+                <label for="name" class="visually-hidden">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                
+                <label for="phone" class="visually-hidden">Phone</label>
+                <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+                
+                <label for="email" class="visually-hidden">Email</label>
+                <input type="email" id="email" name="email" placeholder="Email Address" required>
+                
+                <label for="message" class="visually-hidden">Message</label>
+                <textarea name="message" id="message" cols="35" rows="10" placeholder="Your Message"></textarea>
+                
+                <input type="submit" value="Send Message" class="submit">
+            </form>
+        </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Review Section Start -->
+    <section class="review" id="review">
+        <div class="main-txt">
+            <h3>Customer <span>Reviews</span></h3>
+        </div>
+        <div class="review-content">
+            <div class="box">
+                <div class="img">
+                    <img src="./images/pic-1.png" alt="Customer review avatar">
+                </div>
+                <h3>John Doe</h3>
+                <div class="star">
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                </div>
+                <p>Amazing quality and service! The custom printing exceeded my expectations.</p>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="./images/pic-2.png" alt="Customer review avatar">
+                </div>
+                <h3>Jane Smith</h3>
+                <div class="star">
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                </div>
+                <p>Great communication and fast delivery. Highly recommend Concept Plug!</p>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="./images/pic-3.png" alt="Customer review avatar">
+                </div>
+                <h3>Mike Johnson</h3>
+                <div class="star">
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                </div>
+                <p>The branding work for my business was top-notch. Will definitely order again!</p>
+            </div>
+        </div>
+    </section>
+    <!-- Review Section End -->
+
+    <!-- Footer Start -->
+    <footer id="footer">
+        <div class="footer-content">
+            <div class="logo">
+                <img src="./images/logo.png" alt="Concept Plug Logo">
+            </div>
+            <p>Premium concept clothing and branding services tailored to your style.</p>
+            <div class="social-links">
+                <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#" aria-label="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-bottom-content">
+            <p>Designed By <a href="#">MalekaSolutions (Pty) Ltd</a></p>
+            <div class="copyright">
+                <p>&copy; Copyright <strong>MalekaSolutions Coding</strong>. All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+    
+    <a href="#" class="arrow" aria-label="Back to top">
+        <i><img src="./images/up-arrow.png" alt="Back to top" width="50"></i>
+    </a>
+
+</body>
+</html>
